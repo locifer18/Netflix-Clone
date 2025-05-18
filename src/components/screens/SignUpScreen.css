@@ -1,0 +1,46 @@
+.signInScreen {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 100vh;
+}
+.signUp_form {
+  border: 10px solid #333;
+  width: 450px;
+  border: white;
+  padding: 20px;
+  height: 400px;
+}
+
+.signUpScreen_logo {
+  position: absolute;
+  left: 0;
+  width: 170px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+.signUpScreen_button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+.signUpScreen_button:hover {
+  text-decoration: underline;
+}
+.btn-danger {
+  border-radius: 0;
+  color: #fff;
+  background-color: #e50914;
+  border-color: #dc3545;
+}
+.form-floating {
+  border: solid 1px #333;
+  border-radius: 2px;
+}

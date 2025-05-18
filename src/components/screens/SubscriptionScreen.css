@@ -1,0 +1,153 @@
+.subscriptionScreen {
+  max-width: 100%;
+  margin: 5% auto;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  color: #000000;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.subscriptionScreen h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 45px;
+  text-align: left;
+}
+.subscriptionScreen h4 {
+  font-size: 0.9rem;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.subscriptionScreen_plans {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+.subscriptionScreen_plan {
+  background-color: #fffcfc;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 25%;
+  border: 1px solid #333;
+  transition: background-color 0.3s ease;
+}
+
+.subscriptionScreen_plan.selected {
+  box-shadow: 1px 7px 30px 0px rgba(0, 0, 0, 0.3);
+}
+
+.subscriptionScreen_plan h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.subscriptionScreen_plan p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.subscriptionScreen_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.subscriptionScreen_form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.cvv{
+  width: 150px;
+}
+
+.subscriptionScreen_form input {
+  padding: 12px 15px;
+  font-size: 1rem;
+  color: #2b2a2a;
+  background-color: #ffffff;
+  border: 1px solid #8c8c8c;
+  border-radius: 5px;
+  height: 70px;
+  margin: 10px;
+}
+.expiry_cvv{
+  display: flex;
+  justify-content: space-around;
+}
+.subscriptionScreen_form input::placeholder {
+  color: #8c8c8c;
+}
+
+.subscriptionScreen_error {
+  color: #e50914;
+  font-size: 0.9rem;
+}
+
+.subscriptionScreen_button {
+  padding: 12px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.subscriptionScreen_button:hover {
+  background-color: #c10812;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .subscriptionScreen_plans {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .subscriptionScreen_plan {
+    width: 100%;
+  }
+}
+
+.month_price,
+.quality {
+  font-weight: 600;
+  text-align: left;
+  padding-top: 15px;
+}
+.price,
+.quality_details {
+  color: #2b2a2a;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: #636363 solid 1px;
+  padding-bottom: 20px;
+}
+.download {
+  font-weight: 600;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 80px;
+}
+.plan_name {
+  width: 100%;
+  font-weight: 600;
+  padding: 25px;
+  border-radius: 20px;
+  color: #ffffff;
+  background: radial-gradient(
+      140.76% 131.96% at 100% 100%,
+      rgb(229, 9, 20) 0%,
+      rgba(74, 42, 150, 0.5) 73.57%,
+      rgba(74, 42, 150, 0) 100%
+    ),
+    rgb(29, 82, 157);
+}

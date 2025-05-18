@@ -1,0 +1,30 @@
+.footer_bg{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    height:100%;
+    margin-top: 70px;
+}
+.footer_bg > .footer_row >.footer_col > .flex-column > .nav-item > .nav-link{
+    color: rgb(196, 196, 196);
+    text-decoration: underline;
+    font-size: 15px;
+    font: 0.9rem sans-serif;
+}
+.footer_text{
+    color: rgb(196, 196, 196);
+    font: 0.9rem sans-serif;
+}
+.footer_text2{
+    margin-top: 30px;
+    color: rgb(196, 196, 196);
+    font-weight: bold;
+    font: 0.8rem sans-serif;
+}
+.footer_col{
+    padding: 10px;
+    margin-right: 80px;
+}
+.nav-item{
+    padding: 5px;
+}

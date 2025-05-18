@@ -1,0 +1,139 @@
+.profileScreen {
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 10%;
+}
+
+.profileScreen_body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profileScreen_body h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.profileScreen_info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profileScreen_info img {
+  width: 100px;
+  height: 100px;
+}
+
+.profileScreen_details {
+  flex: 1;
+}
+
+.profileScreen_details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.profileScreen_plans {
+  margin-top: 20px;
+}
+
+.profileScreen_plans h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+.profileScreen_currentPlan {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.profileScreen_currentPlan h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.profileScreen_currentPlan p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.profileScreen_availablePlans {
+  margin-bottom: 20px;
+}
+
+.profileScreen_availablePlans h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.profileScreen_plan {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.profileScreen_plan h5 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.profileScreen_plan p {
+  font-size: 0.9rem;
+  margin: 3px 0;
+}
+
+.profileScreen_changePlan,
+.profileScreen_signOut {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.profileScreen_changePlan {
+  background-color: #e50914;
+}
+
+.profileScreen_changePlan:hover {
+  background-color: #c10812;
+}
+
+.profileScreen_signOut {
+  background-color: #666;
+}
+
+.profileScreen_signOut:hover {
+  background-color: #555;
+}
+
+@media (max-width: 600px) {
+  .profileScreen_info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profileScreen_info img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .profileScreen_body h1 {
+    font-size: 1.5rem;
+  }
+
+  .profileScreen_details h2 {
+    font-size: 1.2rem;
+  }
+} 
